@@ -6,10 +6,12 @@ A simple [v](https://vlang.io) interface to the [GNU Readline library](https://t
 
 * readline(prompt string) string - this might change to ?string
 * add_history(line string)
+* clear_history()
 
 ### What isn't
 
 * Tab completion is a priority
+* Don't try and use rl_free!
 
 ### Dependencies
 
