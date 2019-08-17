@@ -36,6 +36,8 @@ You will need libreadline installed to use the application.
 
 Import the module in your files like `import readline`.
 
+The functions will be named as they are in readline but hopefully will be made more ergonomic with v conveniences like Option types and strings not byteptrs. 
+
 ### Example
 
 ```
