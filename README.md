@@ -4,7 +4,7 @@ A simple [v](https://vlang.io) interface to the [GNU Readline library](https://t
 
 ### Whats working
 
-* readline(prompt string) string
+* readline(prompt string) string - this might change to ?string
 * add_history(line string)
 
 ### What isn't
@@ -35,6 +35,22 @@ The `readline/` directory provides a module to use in a project. See `main.v` fo
 You will need libreadline installed to use the application.
 
 Import the module in your files like `import readline`.
+
+### Example
+
+```
+ali@ali-ubuntu-pc:~/Code/v/vreadline$ ./main 
+Ctrl-C to exit.
+> 
+.a.out.c    .gitignore  LICENSE     main        readline/   
+.git/       .main.c     README.md   main.v      
+> test
+test
+> main
+main    main.v
+> main
+main
+```
 
 ### License
 

@@ -8,6 +8,10 @@ fn C.readline(prompt byteptr) byteptr
 fn C.add_history(line byteptr)
 
 pub fn readline(prompt string) string {
+   line := C.readline(prompt.str)
+   if line == C.NULL {
+      return ''
+   }
    return string(C.readline(prompt.str))
 }
 
