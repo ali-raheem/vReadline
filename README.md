@@ -38,6 +38,8 @@ Import the module in your files like `import readline`.
 
 The functions will be named as they are in readline but hopefully will be made more ergonomic with v conveniences like Option types and strings not byteptrs. 
 
+You can generate a new repo off this [template](https://github.com/ali-raheem/vReadline/generate). Then clone your own repo and begin using it.
+
 ### Example
 
 ```
