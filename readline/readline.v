@@ -1,3 +1,5 @@
+// Copyright © 2019 Ali Raheem
+
 module readline
 
 #flag -lreadline
